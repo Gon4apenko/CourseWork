@@ -1,0 +1,28 @@
+.toolbar{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.toolbar svg{
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+    opacity: .7;
+}
+
+.toolbar svg:hover{
+    opacity: 1;
+}
+
+.product-field{
+    margin-bottom: 30px;
+}
+
+.product-field:last-of-type{
+    margin-bottom: 0;
+}
+
+.order-section{
+    background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,28 @@
+body{
+    background: url("/img/background.jpg");
+    min-height: 100vh !important;
+}
+
+.content{
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    width: 1024px;
+}
+
+textarea{
+    resize: none;
+}
+
+.full-screen{
+    min-height: 100vh;
+}
+
+footer{
+    padding: 200px 20px 20px;
+}
+
+footer > div > div{
+    padding: 10px;
+}

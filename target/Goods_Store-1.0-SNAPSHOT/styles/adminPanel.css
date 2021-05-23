@@ -1,0 +1,50 @@
+.admin-panel{
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    transition: .5s;
+    height: 50%;
+}
+
+.admin-panel-toggler{
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 20px;
+    transform: translateY(-50%);
+    background-color: grey;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.admin-panel-active{
+    left: calc(100% - 200px);
+}
+
+.admin-section{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close{
+    cursor: pointer;
+    font-size: 64px;
+    position: absolute;
+    top: 15px;
+    right: 360px;
+    opacity: .7;
+    transition: .2s;
+}
+
+.close:hover{
+    opacity: 1;
+}
+
+.admin-remove-section{
+    margin-bottom: 0;
+}
